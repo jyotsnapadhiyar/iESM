@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.jpeg" alt="">
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="pagetitle">
+      <h1>Location</h1>
+    </div><!-- End Page Title -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">Lovlesh Dagar</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Lovlesh Dagar</h6>
+              <span>Regional Head</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " href="location.html">
+          <i class="bi bi-geo-alt"></i>
+          <span>Location</span>
+        </a>
+      </li><!-- End Location Nav -->
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <section class="section dashboard">
+
+        <div class="row"> 
+
+            <!-- Saving Card -->
+            <div class="col-xxl-4 col-md-4">
+            <div class="card info-card alerts">
+
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center align-items-center" style="border-right: 1px solid white;">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="card-text-count text-light fw-bold total-saving-text">Saving in INR</p>
+                        <p class="card-text-count text-light fw-bold total-saving-count">472,500.56&#8377;</p>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="row" style="padding: 0 10px 0 13px">
+                        <div class="col-12 d-flex justify-content-center align-items-center" style="border-bottom: 1px solid white;">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="card-text-count text-success fw-bold total-energy-count">1,130,940kWh</p>
+                            <p class="card-text pb-1 text-light total-energy-text">Energy Saved</p>
+                        </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="card-text-count text-success fw-bold total-carbon-count">450k KgCO<sub>2</sub></p>
+                            <p class="card-text text-light total-carbon-text">Carbon Saved</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+            </div><!-- End Saving Card -->
+
+            <!-- Sites Card -->
+            <div class="col-xxl-4 col-md-4">
+            <div class="card info-card sites">
+
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center align-items-center" style="border-right: 1px solid white;">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="card-text-count text-light fw-bold total-sites-text">Total Sites</p>
+                        <p class="card-text-count text-light fw-bold total-sites-count">546</p>
+                    </div>
+                    </div>
+                    <div class="col-6 justify-content-center align-items-center">
+                    <div class="row" style="padding: 0 10px 0 13px">
+                        <div class="col-12 d-flex justify-content-center align-items-center" style="border-bottom: 1px solid white;">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="card-text-count text-success fw-bold total-active-count">467</p>
+                            <p class="card-text text-light pb-1 total-active-text">Active Sites</p>
+                        </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="card-text-count text-danger fw-bold total-inactive-count">89</p>
+                            <p class="card-text text-light total-inactive-text">In-Active Sites</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+            </div><!-- End Sites Card -->
+
+            <!-- Alerts Card -->
+            
+            <div class="col-xxl-4 col-md-4">
+            <div class="card info-card alerts">
+
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center align-items-center" style="border-right: 1px solid white;">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="card-text-count text-light fw-bold total-alerts-text">Total Alerts</p>
+                        <p class="card-text-count text-light fw-bold total-alerts-count">135</p>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="row" style="padding: 0 10px 0 13px">
+                        <div class="col-12 d-flex justify-content-center align-items-center" style="border-bottom: 1px solid white;">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="card-text-count text-danger fw-bold total-critical-alerts-count">35</p>
+                            <p class="card-text pb-1 text-light total-critical-text">Critical Alerts</p>
+                        </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column align-items-center">
+                            <p class="card-text-count text-success fw-bold total-noncritical-count">100</p>
+                            <p class="card-text text-light total-noncritical-text">Non-Critical Alerts</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+            </div><!-- End Alerts Card -->
+
+            
+
+            <!-- Type Alerts Card -->
+
+            <!-- <div class="col-xxl-3 col-md-3">
+            <div class="card info-card sites">
+
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center align-items-center" style="border-right: 1px solid;">
+                    <div class="d-flex flex-column align-items-center">
+                        <h4 class="card-text total-alerts-status-text">Alerts Status</h4>
+                    </div>
+                    </div>
+                    <div class="col-6">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center align-items-center" style="border-bottom: 1px solid;">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class="card-text total-sites-text">Pending Alerts</h4>
+                            <h4 class="card-text total-sites-count">100</h4>
+                        </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class="card-text total-sites-text">Closed Alerts</h4>
+                            <h4 class="card-text total-sites-count">347</h4>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+            </div> -->
+            <!-- End Type Alers Card -->
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+            <div class="card info-card">
+                <div class="card-title d-flex justify-content-center align-items-center">Location Status</div>
+                <div class="card-body">
+                <div id="map">
+                    <img class="d-flex img-fluid" src="assets/img/map.png" alt="" style="width:fit-content; height: fit-content;">
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6">
+            <div class="card info-card">
+                <div class="card-title d-flex justify-content-center align-items-center">Monthly Consumption</div>
+                <div class="card-body">
+                <div id="month-cons" style="height: 300px; width: 100%;"></div>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+            
+            <div class="card info-card">
+                <div class="card-title d-flex justify-content-center align-items-center">Monthly Consumption</div>
+                <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                    <div id="pie1" style="height: 300px; width: 100%;"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                    <div id="pie2" style="height: 300px; width: 100%;"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>BuildINT</span></strong>. All Rights Reserved
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
